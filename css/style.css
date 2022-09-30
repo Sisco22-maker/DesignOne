@@ -44,6 +44,7 @@ margin : -30px 0px 0px;
 {
     --main-color:rgb(16, 202, 183);
     --main-padding:60px;
+    --secondary-color : #333;
 }
 /* end my variable */
 
@@ -502,13 +503,13 @@ background-color: var(--main-color);
 
 /* Start Contact */
 .contact {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
+    padding-top: var(--main-padding);
+    padding-bottom:var(--main-padding);
     background-color: var(--section-background);
   }
   .contact .info {
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
     text-align: center;
   }
   .contact .info .label {
